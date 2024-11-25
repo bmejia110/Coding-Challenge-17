@@ -1,4 +1,5 @@
 import React, {useState, useEffect } from "react";
+import "./Gallery.css";
 
 const Gallery = () => {
     const[tours, setTours] = useState([]);
