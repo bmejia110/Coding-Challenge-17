@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+}
+
+.tour-card {
+    text-align: center;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+    border: 1px solid #ccc;
+
+}
+.tour-card img {
+    width:100%;
+    border-radius: 5px;
+}
+.tour-card p {
+    margin: 5px 0;
+}
