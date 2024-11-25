@@ -11,6 +11,7 @@ const Gallery = () => {
         const fetchTours =async () => {
             try {
                 const response = await fetch("https://course-api.com/react-tours-project");
+                console.log(response);
                 if (!response.ok) {
                     throw new Error("Failed to fetch tours");
                 }
@@ -18,6 +19,7 @@ const Gallery = () => {
                 setTours(data);
                 setLoading(false);
             } catch (error) {
+                console.error(error);
                 setError(error.message);
                 setLoading(false);
             }
